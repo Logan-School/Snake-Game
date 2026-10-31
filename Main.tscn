@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://d0niqhj8eivi0"]
+
+[ext_resource type="Script" uid="uid://c4ocohku86cla" path="res://Scripts/SnakeGame.cs" id="1_glv2v"]
+[ext_resource type="Texture2D" uid="uid://7xsapxn3gi3d" path="res://art/head.png" id="2_3dxm6"]
+[ext_resource type="Texture2D" uid="uid://clao0sk3idyg3" path="res://art/body.png" id="3_lgr22"]
+[ext_resource type="Texture2D" uid="uid://phixngio3tn" path="res://art/tail.png" id="4_lgr22"]
+[ext_resource type="Texture2D" uid="uid://bixnx8ttlqxwl" path="res://art/apple.png" id="4_trn2v"]
+[ext_resource type="Texture2D" uid="uid://chheue7ga4lmm" path="res://art/kiwi.png" id="5_03owx"]
+[ext_resource type="Texture2D" uid="uid://nu06xk6dddob" path="res://art/lemon.png" id="6_wkp8b"]
+[ext_resource type="AudioStream" uid="uid://ckvn8yvjjnuwp" path="res://gulp.mp3" id="8_trn2v"]
+
+[node name="Main" type="Node2D" unique_id=1936649286]
+script = ExtResource("1_glv2v")
+HeadTexture = ExtResource("2_3dxm6")
+BodyTexture = ExtResource("3_lgr22")
+TailTexture = ExtResource("4_lgr22")
+FruitTexture1 = ExtResource("4_trn2v")
+FruitTexture2 = ExtResource("5_03owx")
+FruitTexture3 = ExtResource("6_wkp8b")
+TailSpriteRotationOffsetDegrees = 180.0
+EatSound = ExtResource("8_trn2v")
